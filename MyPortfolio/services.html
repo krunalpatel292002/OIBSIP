@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krunal Patel - Web Developer, Programmer , ML Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <li style="margin-top:40px"><a href="/">Home</a></li>
+                <li><a href="/intro.html">My Intro</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/contact.html">Contact me</a></li>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="Hamburger_icon.svg.png" alt="" width="23px"> 
+                <img class="cross" src="cross.png" alt="" width="20px">
+            </div>
+            <div class="paymentForm">
+                <form action="">
+                    <h1>Payment Information:-</h1>
+                    <hr>
+                    <div class="mb-3">
+                        <label for="clientName" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="cardType" class="form-label">Card Type:</label>
+                        <select name="card_type" class="form-control" id="cardType" aria-describedby="emailHelp">
+                            <option value="">--Select a Card Type--</option>
+                            <option value="visa">Visa</option>
+                            <option value="Rupay">Rupay</option>
+                            <option value="master">master</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cardNumber" class="form-label">Card Number</label>
+                        <input type="number" class="form-control" id="cardNumber" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="expirationDate" class="form-label">Expiration Date</label>
+                        <input type="date" class="form-control" id="expirationDate" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="CVV" class="form-label">CVV</label>
+                        <input type="password" class="form-control" id="CVV" aria-describedby="emailHelp">
+                    </div>
+                    <!-- <div class="mb-3">
+                        <label for="eWallet" class="form-label">For E-wallet:-</label>
+                        <table>
+                            <tr><td><img src="Gpay_QR.jpeg" alt="Gpay_QR" class="Gpay"></td></tr>
+                        </table>
+                        <div id="emailHelp" class="form-text">You can also scan my QR for Wallet-app Payment.</div>
+                    </div> -->
+                    <button type="submit" class="btn btn-sm">Make Payment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="Script.Js"></script>
+</body>
+
+</html>
